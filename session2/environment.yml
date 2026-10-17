@@ -1,0 +1,20 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - python=3.14
+  - conda=26.7.2
+  - setuptools
+  - pip
+  - wheel
+  - conda-anaconda-telemetry[version='>=0.3.0']
+  - conda-anaconda-tos[version='>=0.2.2']
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - anaconda-anon-usage
+  - anaconda-channel-guide
+  - anaconda-auth[version='>=0.15.1']
+  - pyopenssl=26.0.0
+  - brotli=1.2.0
+prefix: /opt/conda
